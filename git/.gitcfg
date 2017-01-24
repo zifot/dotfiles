@@ -1,0 +1,15 @@
+# To include with [include] path config
+
+[alias]
+
+    st = status -s
+
+    br = for-each-ref --sort=committerdate refs/heads/ --format='%(HEAD) %(color:yellow)%(refname:short)%(color:reset) -%(color:red)%(objectname:short)%(color:reset) - %(authorname) (%(color:green)%(committerdate:relative)%(color:reset))'
+
+    loghm = log --oneline --graph --decorate master..HEAD
+
+[guitool "checkout"]
+
+    cmd = git checkout $FILENAME
+    noconsole = yes
+    needsfile = yes
