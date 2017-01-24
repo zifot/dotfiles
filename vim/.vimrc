@@ -1,7 +1,7 @@
 syntax enable
 colorscheme monokai
 
-set number
+set relativenumber
 set incsearch
 
 set expandtab
