@@ -35,3 +35,6 @@ endfunction
 
 au BufWritePre * call TrimEndLines()
 au BufWritePre * call TrimTrailingWhiteSpace()
+
+" Leader mappings
+nnoremap <Leader>z :b#<CR>
