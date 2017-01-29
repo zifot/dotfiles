@@ -11,6 +11,8 @@ set autoindent
 set softtabstop=4
 set shiftwidth=4
 
+let mapleader=","
+
 
 " Highlight trailing white characters.
 match Todo /\s\+$/
