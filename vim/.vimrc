@@ -14,6 +14,7 @@ set shiftwidth=4
 let mapleader=","
 
 set path+=**
+set wildmenu
 
 
 " Highlight trailing white characters.
