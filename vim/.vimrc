@@ -1,6 +1,8 @@
 syntax enable
 colorscheme monokai
 
+set hidden
+
 set relativenumber
 set incsearch
 
