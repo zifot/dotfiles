@@ -2,6 +2,7 @@ syntax enable
 colorscheme monokai
 
 set hidden
+set laststatus=2
 
 set relativenumber
 set incsearch
