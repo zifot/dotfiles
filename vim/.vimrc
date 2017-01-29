@@ -13,6 +13,8 @@ set shiftwidth=4
 
 let mapleader=","
 
+set path+=**
+
 
 " Highlight trailing white characters.
 match Todo /\s\+$/
